@@ -1,0 +1,14 @@
+*~
+\#*\#
+auto-save-list/
+cnfonts/
+backups/
+elpa/
+tutorial/
+url/
+flycheck_*.el
+.projectile
+.dir-locals.el
+history
+recentf
+projectile-bookmarks.eld

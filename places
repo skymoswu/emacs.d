@@ -1,0 +1,13 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("c:/Users/skymo/.emacs.d/modules/theme.el" . 150)
+ ("c:/Users/skymo/Documents/Doctoral Stage/Projects/Data Analysis Aiding Projects/202404/20240418_zpz_corrplot/corrplot.Rout" . 35956)
+ ("c:/Users/skymo/Downloads/docker-compose.yml" . 1577)
+ ("c:/Users/skymo/.emacs.d/modules/edit.el" . 903)
+ ("c:/Users/skymo/.emacs.d/modules/lang.el" . 308)
+ ("c:/Users/skymo/.emacs.d/init.el" . 779)
+ ("c:/Program Files/Emacs/"
+  (dired-filename . "c:/Program Files/Emacs/emacs-29.3_2"))
+ ("c:/Users/skymo/.emacs.d/modules/"
+  (dired-filename . "c:/Users/skymo/.emacs.d/modules/edit.el"))
+ ("c:/Users/skymo/.emacs.d/"
+  (dired-filename . "c:/Users/skymo/.emacs.d/init.el")))
