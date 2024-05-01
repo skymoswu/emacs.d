@@ -23,3 +23,4 @@
 (require 'edit)
 (require 'theme)
 (require 'lang)
+(require 'note)

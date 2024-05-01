@@ -136,4 +136,13 @@
   :ensure t
   :init (doom-modeline-mode 1))
 
+;; Setup paredit
+(use-package paredit
+  :ensure t
+  :hook ((
+          emacs-lisp-mode-hook
+          eval-expression-minibuffer-setup-hook
+          lisp-mode-hook
+          lisp-interaction-mode-hook)))
+
 (provide 'edit)
