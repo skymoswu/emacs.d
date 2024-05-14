@@ -20,7 +20,7 @@
         org-src-fontify-natively t
         org-agenda-include-diary t
         org-startup-truncated nil
-        org-todo-keywords '("TODO(t)" "DOING(t!)" "DONE(d!)" "CANCELLED(c@)")
+        org-todo-keywords '("TODO(t)" "DOING(i!)" "DONE(d!)" "CANCELLED(c@)")
         org-todo-keyword-faces '(
                                  ("TODO" . org-warning)
                                  ("DOING" . "yellow"))))
