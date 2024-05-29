@@ -8,12 +8,12 @@
   (setq org-capture-templates
         '(
           ("j" "Journal" entry
-           (file+olp+datetree "~/org/journal.org")
+           (file+olp+datetree "~/Documents/Notes/journal.org")
            "* %T - %^{heading} \n %?")
           ("w" "Work task" entry
-           (file+headline "~/org/work.org" "* Tasks")
+           (file+headline "~/Documents/Notes/work.org" "* Tasks")
            "** TODO %?\n %u\n")))
-  (setq org-agenda-files (list "~/org/")
+  (setq org-agenda-files (list "~/Documents/Notes/")
         org-refile-targets '((org-agenda-files :maxlevel . 5))
         org-refile-use-outline-path 'file
         org-log-done 'time
@@ -26,5 +26,11 @@
                                  ("DOING" . "yellow"))))
 (use-package zotxt
   :ensure t)
+
+(use-package org-modern
+  :ensure t
+  :hook (
+         (org-mode . org-modern-mode)
+         (org-agenda-finalize . org-modern-agenda)))
 
 (provide 'note)

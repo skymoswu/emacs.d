@@ -6,6 +6,7 @@ backups/
 elpa/
 tutorial/
 url/
+server/
 flycheck_*.el
 .projectile
 .dir-locals.el

@@ -18,6 +18,9 @@
   :config
   (dashboard-setup-startup-hook)
   (setq dashboard-startup-banner 'logo))
+(setq initial-buffer-choice (
+                             lambda ()
+                               (get-buffer-create dashboard-buffer-name)))
 
 (add-to-list 'load-path "~/.emacs.d/modules")
 (require 'edit)
