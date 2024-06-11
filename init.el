@@ -5,6 +5,10 @@
                          ("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
                          ("melpa"  . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 
+(setq default-tab-width 4
+      c-basic-offset 4
+      indent-tabs-mode nil)
+
 (require 'use-package)
 (setq use-package-always-ensure t)
 (use-package better-defaults)
